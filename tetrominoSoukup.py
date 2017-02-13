@@ -19,7 +19,7 @@ BOARDHEIGHT = 20
 BLANK = '.'
 
 MOVESIDEWAYSFREQ = 0.15
-MOVEDOWNFREQ = 0.1
+MOVEDOWNFREQ = 0.15 #change moveddownfreq from 0.1 to 0.15#
 
 XMARGIN = int((WINDOWWIDTH - BOARDWIDTH * BOXSIZE) / 2)
 TOPMARGIN = WINDOWHEIGHT - (BOARDHEIGHT * BOXSIZE) - 5
@@ -37,16 +37,16 @@ LIGHTBLUE   = ( 20,  20, 175)
 YELLOW      = (155, 155,   0)
 LIGHTYELLOW = (175, 175,  20)
 
-BORDERCOLOR = BLUE
+BORDERCOLOR = GRAY #changed bordercolor from blue to gray# 
 BGCOLOR = BLACK
-TEXTCOLOR = WHITE
+TEXTCOLOR = RED #changed text color from white to red#
 TEXTSHADOWCOLOR = GRAY
 COLORS      = (     BLUE,      GREEN,      RED,      YELLOW)
 LIGHTCOLORS = (LIGHTBLUE, LIGHTGREEN, LIGHTRED, LIGHTYELLOW)
 assert len(COLORS) == len(LIGHTCOLORS) # each color must have light color
 
-TEMPLATEWIDTH = 5
-TEMPLATEHEIGHT = 5
+TEMPLATEWIDTH = 8 #change templatewidth from 5 to 8#
+TEMPLATEHEIGHT = 8 #change templateheight from 5 to 8#
 
 S_SHAPE_TEMPLATE = [['.....',
                      '.....',
