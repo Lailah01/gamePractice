@@ -37,7 +37,8 @@ LIGHTBLUE   = ( 20,  20, 175)
 YELLOW      = (155, 155,   0)
 LIGHTYELLOW = (175, 175,  20)
 
-BORDERCOLOR = GRAY #changed bordercolor from blue to gray# 
+BORDERCOLOR = GRAY #changed bordercolor from blue to gray#
+
 BGCOLOR = BLACK
 TEXTCOLOR = RED #changed text color from white to red#
 TEXTSHADOWCOLOR = GRAY
